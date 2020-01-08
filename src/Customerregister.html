@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../css/mini.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    
+     .containernav {
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
+    
+    </style>
+</head>
+<body style="background-image: url(../img/cregbike.jpg);">
+    <div class="containernav">
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+  </div>
+    <center><h1 style="font-family:papyrus">ODDS  SHOWROOM <b><i class="fa fa-motorcycle"></i></b></h1>
+        <h2 style="color: #ff0505">CUSTOMER REGISTER FORM</h2></center>
+    <h3>Please enter the details</h3>
+<form action="customerregister.php" method="post">
+  <div class="container">
+    
+    <label for="Customer name"><b>Customer name</b></label>
+    <input type="text" placeholder="Enter Customer name" name="name" required>
+    <label for="Gender"><b>Gender</b></label>
+    <input type="text" placeholder="Enter Gender(Male/Female/Other)" name="gender" required><br>
+    <label for="contact"><b>Contact number</b></label>
+    <input type="number" placeholder="Enter Contact number" name="contact" required><br>
+
+    <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit" class="registerbtn" name = "register">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="customerlogin.html">Log in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>

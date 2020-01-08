@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="../css/mini.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    
+     .containernav {
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
+    
+    </style>
+    
+    
+</head>
+<body style="background-image: url(../img/cregbike.jpg);">
+    
+  <div class="containernav">
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+  </div>
+    
+    
+ 
+    <div> 
+    <center><h1 style="font-family:papyrus">ODDS  SHOWROOM <b><i class="fa fa-motorcycle"></i></b></h1>
+         <h2 style="color: #ff0505">CUSTOMER LOGIN</h2></center>
+    </div><br>
+
+
+<form method="post" action="customerlogin.php">
+  
+
+  <div class="container">
+    <label style="color: white" for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label style="color: white" for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    
+  </div>
+
+  <div class="container">
+      <a href=../index.html><button type="button" class="cancelbtn">Cancel</button></a>
+    
+  </div>
+</form>
+<div class="container signin">
+    <p>Don't have an account? <a href="Customerregister.html"> Register here</a>.</p>
+  </div>
+</body>
+</html>
